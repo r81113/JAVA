@@ -1,0 +1,12 @@
+   int x = a.nextInt();	    
+        String result;
+	
+	
+	    for(int i=0;i<x;i++) {
+	    	
+	  
+	    	result=i%2==1?  "ODD":"EVEN"; 
+	    
+	    	System.out.println(result);
+		  
+	    }
