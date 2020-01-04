@@ -1,0 +1,4 @@
+String b = v.nextLine();		
+String a = v.next();		
+int c = v.nextInt();		
+float d = v.nextFloat();
