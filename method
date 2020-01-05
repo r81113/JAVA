@@ -1,0 +1,27 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   Scanner a = new Scanner(System.in);
+
+		    String str1 = a.nextLine();
+		    String str2 = a.nextLine();
+
+		    int num = a.nextInt();
+	    	        
+	        System.out.println(str1(str1));	  
+	        
+	        str2(str2);
+	     
+            System.out.println(square1(num));
+	    	
+	 }
+   public static String str1(String input) {
+	   return input + input;
+   }
+   public static void str2(String input) {
+       System.out.println(input);	  
+
+   }
+   public static int square1(int input) {
+	   return input * input;
+   }
+   

@@ -1,0 +1,19 @@
+int[] dice = new int [6];
+	Scanner scan =new Scanner(System.in);
+    float ROLLS=100;
+	float avg = (float)ROLLS/6.0f;
+	
+	for(int i=0;i <ROLLS;i++) {
+		
+		int num = (int)(Math.random()*5.99999);
+		dice[num]++;
+		
+	}
+		System.out.println("one:  "+(dice[0]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[0]-avg)/avg)*100.0f+  "%");
+		System.out.println("two:  "+(dice[1]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[1]-avg)/avg)*100.0f+  "%");
+		System.out.println("three:"+(dice[2]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[2]-avg)/avg)*100.0f+  "%");
+		System.out.println("four: "+(dice[3]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[3]-avg)/avg)*100.0f+  "%");
+		System.out.println("five: "+(dice[4]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[4]-avg)/avg)*100.0f+  "%");
+		System.out.println("six:  "+(dice[5]/ROLLS)*100+"%"+ "   "+"偏離平均值比例:"+(((float)dice[5]-avg)/avg)*100.0f+  "%");
+	
+		

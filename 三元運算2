@@ -1,0 +1,20 @@
+  String x="toy1";
+	  String y="toy2";
+	  String z="toy3";
+      String a="toy4";
+	  int price=6;
+      if(a.equals("toy4") || a.equals("toyz1"))
+      {
+    	  if(1<=price && price <= 5)
+           {
+    		  System.out.println("buy");
+           }
+          else 
+          {
+        	  System.out.println("don't buy");
+          }
+      }
+      else 
+      {
+    	  System.out.println("don't buy");
+      }

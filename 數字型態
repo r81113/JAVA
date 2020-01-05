@@ -1,0 +1,13 @@
+int num = 7;
+		int num2 = 4;
+		
+		float result = (float)num/(float)num2;
+		System.out.println(result);
+		
+		String a;
+		a = "a"+"\n"+"b"+"\n"+"c";
+		System.out.println(a);
+		
+		int x =2;
+	    x++;
+		System.out.println(x);

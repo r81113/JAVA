@@ -1,0 +1,15 @@
+      int x=0;
+      /*short x=0 byte=0*/ 
+      boolean a = true;
+		while(a) 
+		{
+           x--;
+          if(x>0) {
+        	  a = false;
+           }
+  		
+	    }
+		System.out.println(x);
+		x++;
+		System.out.println(x);
+		

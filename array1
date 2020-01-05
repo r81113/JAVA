@@ -1,0 +1,15 @@
+int student = scan.nextInt();
+		int[] t = new int[student];
+		
+		int len = t.length;
+		int result=0; 
+		
+		for(int i=0;i<student;i++) {
+			
+		 	
+		   t[i]= scan.nextInt();	  
+		   result = result + t[i]; 
+		
+		}
+	
+		 System.out.println(result/len);	

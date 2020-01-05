@@ -1,0 +1,22 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 int []x= new int[]{1,2,3};
+	     int []y=x;
+	     
+	     String b="abc";
+         String []a = b.split("");
+         String []n =a;
+         
+         
+	     y[0]=4545; 
+    	
+    	System.out.println(a[0]);
+    	
+        n[0]="d";
+		System.out.print(x[0]);
+    	    
+	  
+		
+	 
+   }
