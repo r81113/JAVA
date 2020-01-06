@@ -1,0 +1,26 @@
+
+	    float a = (float)Math.random();
+	    a *=1000.0f;
+	    int num1 = (int)a;    
+	    System.out.println(num1); 
+	    Scanner scan = new Scanner(System.in);
+	  
+	  while(true) {  
+	 
+	    int guess = scan.nextInt(); 
+	  
+	    	
+	    	if(guess>num1) {
+	    		
+	    		System.out.println("太大");
+	    	}
+	    	else if(guess<num1) {
+	    		
+	    		System.out.println("太小");
+	    	}
+	    	else {
+	    		System.out.println("BINGO");
+	    	}
+	    	
+	    }
+	   
