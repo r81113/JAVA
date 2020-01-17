@@ -1,0 +1,111 @@
+public class student {
+	
+	  public static float x;	
+	  public float weight;
+	  public float height;
+	  
+	  public float BMI() 
+	  {
+		  
+		  return (weight)/(height*height);
+		  		  
+	  }
+       
+	  
+	  public void print1() 
+	  {
+		  
+		  System.out.println("aaaaaaaaa");;
+		  
+	  } 
+	  
+	  public static void print2() 
+	  {
+		  
+		  System.out.println("I'm a superman");;
+		  
+	  }
+	  
+	  
+    
+}
+
+//--------------------------------------------------------------------------------
+public class Monster {
+	
+	public static int NUM_POKEMON;
+	public int HP;
+	public int ID;
+	public int DAMAGE;
+	
+	public void all() 
+	{
+		  
+	   System.out.println("HP:"+HP+"\n"+"ID:"+ID+"\n"+"DAMAGE:"+DAMAGE);
+		  
+	 }
+	
+
+}
+//---------------------------------------------------------------------------------
+
+public class New {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      
+		
+        student.x= 10;
+        
+        student x1 =new student();   
+        student x2 =new student();   
+
+        x1.height =1.73f;        
+        x1.weight =56.0f;     
+        
+        x2.height =1.83f;        
+        x2.weight =78.5f; 
+               
+		System.out.println(x1.BMI()+"\n"+x2.BMI());
+    
+        x1.print1();
+        
+        student.print2();
+        
+        //---------------------------------------------------------------------------------- 
+
+        Monster.NUM_POKEMON=365;
+        
+        Monster dragon = new Monster();  
+        
+        Monster pika   = new Monster();  
+        
+        dragon.HP=100;
+        dragon.DAMAGE=50;
+        dragon.ID=1;
+  
+        pika.HP=100;
+        pika.DAMAGE=50;
+        pika.ID=2;
+        
+		dragon.all();
+		pika.all();
+		
+        //---------------------------------------------------------------------------------- 
+                     
+	}
+	   
+         
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
